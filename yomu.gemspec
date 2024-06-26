@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'yomu/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'yomu-timesheet'
+  spec.name          = 'yomu'
   spec.version       = Yomu::VERSION
   spec.authors       = ['Erol Fornoles']
   spec.email         = ['erol.fornoles@gmail.com']
